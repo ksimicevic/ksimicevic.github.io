@@ -14,7 +14,7 @@ Contact:
 
 <img align="left" width="20" height="20" src="./icons/github.png" alt="GitHub"> &nbsp;  [ksimicevic](https://github.com/ksimicevic)
 
-Last updated: 25-12-2022
+Last updated: 02-01-2023
 
 ## Education
 - #### MSc in Computing, Faculty of Electrical Enginering and Computing, University of Zagreb (Oct 2021 - Jul 2023 expected)
