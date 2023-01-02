@@ -1,4 +1,4 @@
-<title > About Korina </title>
+<title> About Korina </title>
 
 # Korina Šimičević
 
