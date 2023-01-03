@@ -468,7 +468,7 @@ Conclusion: Do not reject null hypothesis under significance level of 0.05.</cod
 <h2 class="anchored" data-anchor-id="statistical-test-to-determine-if-messages-per-weekday-have-uniform-distribution">Statistical test to determine if messages per weekday have uniform distribution</h2>
 <section id="chi-squared-test" class="level3">
 <h3 class="anchored" data-anchor-id="chi-squared-test">Chi-Squared Test</h3>
-<p>Chi-Squared test is used to determine whether the observed frequencies match the expected frequencies. I can take the observed number of messages per weekday and compared them to expected number of messages per weekday were it distributed uniformly (meaning each day would have <code>total_messages / 7</code> messages.</p>
+<p>Chi-Squared test is used to determine whether the observed frequencies match the expected frequencies. I can take the observed number of messages per weekday and compare them to expected number of messages per weekday were it distributed uniformly (meaning each day would have <code>total_messages / 7</code> messages).</p>
 <p>Null hypothesis: observed frequencies do not differ significantly from expected frequencies <br> Alternative hypothesis: ! null hypothesis <br> Assumption: all observed and expected frequencies are at least 5 <br></p>
 <div class="cell" data-execution_count="182">
 <div class="sourceCode cell-code" id="cb31"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> scipy.stats <span class="im">import</span> chisquare</span>
