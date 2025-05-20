@@ -97,21 +97,28 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="software-engineer-mireo-jul-2021---present">Software Engineer @ Mireo (Jul 2021 - Present)</h2>
 <section id="data-ingestion-connector-for-the-spacetime-database" class="level3">
 <h3 class="anchored" data-anchor-id="data-ingestion-connector-for-the-spacetime-database">Data Ingestion Connector for the SpaceTime Database</h3>
-<p>During my intership in summer 2021, I developed a data ingestion connector for integrating new data into the SpaceTime database. I wrote the connector in three programming languages: <strong>C++20</strong> (using <strong>Boost</strong> libraries and <strong>Boost.Asio</strong>), <strong>Java</strong> and <strong>Python</strong>.</p>
+<p>As part of my internship in Summer 2021, I developed a data ingestion connector for integrating new data into the SpaceTime database.</p>
+<p>The connector was implemented in <strong>C++20</strong> (using <strong>Boost</strong> and <strong>Boost.Asio</strong>), <strong>Java</strong>, and <strong>Python</strong> to support interoperability across different systems and use cases.</p>
 <hr>
 </section>
 <section id="asynchronous-client-server-backend-system-for-querying-the-spacetime-database" class="level3">
 <h3 class="anchored" data-anchor-id="asynchronous-client-server-backend-system-for-querying-the-spacetime-database">Asynchronous Client-Server Backend System for Querying the SpaceTime Database</h3>
-<p>Implemented an asynchronous client-server system to handle user queries and deliver responses from the SpaceTime database.</p>
-<p>The client side was implemented in <strong>C++20</strong> using Boost libraries and <strong>Boost.Asio</strong> for <strong>asynchronous programming</strong> and <strong>TCP</strong> communication. The client provides an automatic reconnect and retry feature, in the event of the loss of connection, the client will automatically try to reconnect to the server and resend any queries that have not received their corresponding responses. Additionally, the client supports multi flight mode, meaning the user can send multiple queries at the same time and asynchronously await their responses.</p>
-<p>The server side was implemented in <strong>C++20</strong> using <strong>Boost</strong> libraries and <strong>Boost.Asio</strong> for <strong>asynchronous programming</strong> and <strong>TCP</strong> communication.</p>
+<p>I implemented an asynchronous client-server system for handling user queries and delivering responses from the SpaceTime database.</p>
+<ul>
+<li><strong>Client</strong>: Developed in <strong>C++20</strong> using <strong>Boost.Asio</strong> for <strong>asynchronous programming</strong> and <strong>TCP communication</strong>. Features include:
+<ul>
+<li>Automatic reconnect and retry: Upon connection loss, the client automatically reconnects and resends any pending queries.</li>
+<li>Multi-flight support: Allows multiple queries to be sent concurrently, with responses handled asynchronously.</li>
+</ul></li>
+<li><strong>Server</strong>: Also implemented in <strong>C++20</strong> with <strong>Boost.Asio</strong>, capable of handling multiple simultaneous client connections using non-blocking I/O.</li>
+</ul>
 <hr>
 </section>
 <section id="boost.mqtt5" class="level3">
 <h3 class="anchored" data-anchor-id="boost.mqtt5">Boost.MQTT5</h3>
 <p>GitHub link to the <a href="https://github.com/boostorg/mqtt5">repository</a>.</p>
 <p>An <strong>open-source</strong>, <strong>industrial-grade MQTT 5.0</strong> client built in <strong>C++17</strong> using <strong>Boost.Asio</strong>. <br> The Client is designed for publishing or receiving messages from an MQTT 5.0 compatible Broker.</p>
-<p>Released as part of Boost 1.88 — the largest collection of open-source and peer-reviewed C++ libraries.</p>
+<p>Released as part of Boost 1.88 — <strong>the largest collection of open-source and peer-reviewed C++ libraries.</strong></p>
 <p>My responsibilities include:</p>
 <ul>
 <li>Coordinated and tracked development tasks across contributors</li>
@@ -126,7 +133,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="in-house-raft-consensus-algorithm-implementation" class="level3">
 <h3 class="anchored" data-anchor-id="in-house-raft-consensus-algorithm-implementation">In-House Raft Consensus Algorithm Implementation</h3>
-<p>Currently leading the development of an in-house C++20 implementation of a consensus algorithm for distributed systems using Boost.Asio.</p>
+<p>Currently leading the development of an in-house <strong>C++20</strong> implementation of a <strong>consensus algorithm for distributed systems</strong> using Boost.Asio.</p>
 <p>My responsibilities include:</p>
 <ul>
 <li>Architecture design</li>
@@ -163,8 +170,8 @@ ul.task-list li input[type="checkbox"] {
 <section id="study-hours-sep-2020---apr-2024" class="level3">
 <h3 class="anchored" data-anchor-id="study-hours-sep-2020---apr-2024">Study Hours (Sep 2020 - Apr 2024)</h3>
 <p>GitHub link to the <a href="https://github.com/ksimicevic/study-hours">repository</a>.</p>
-<p>During the academic year of 2020/2021, I collected data on how many hours I spent on university-related activities for each subject. The activities included attending lessons, studying, doing homework, and others.</p>
-<p>After collecting the data, I created a web server showcasing various interactive data visualizations.</p>
+<p>During the 2020/2021 academic year, I tracked the number of hours spent on various university-related activities across different subjects, including attending lectures, studying, completing homework, and more.</p>
+<p>After collecting the data, I developed a web server to display interactive data visualizations that provide insights into my study habits over time.</p>
 <p><strong>Technologies used:</strong> Python, Plotly, Dash</p>
 <hr>
 </section>

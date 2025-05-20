@@ -29,17 +29,21 @@ While **C++** is my core language, I’m also experienced in **Python** and **Ja
 
 ### Data Ingestion Connector for the SpaceTime Database
 
-During my intership in summer 2021, I developed a data ingestion connector for integrating new data into the SpaceTime database. I wrote the connector in three programming languages: **C++20** (using **Boost** libraries and **Boost.Asio**), **Java** and **Python**.
+As part of my internship in Summer 2021, I developed a data ingestion connector for integrating new data into the SpaceTime database.
+
+The connector was implemented in **C++20** (using **Boost** and **Boost.Asio**), **Java**, and **Python** to support interoperability across different systems and use cases.
 
 ---
 
 ### Asynchronous Client-Server Backend System for Querying the SpaceTime Database
 
-Implemented an asynchronous client-server system to handle user queries and deliver responses from the SpaceTime database.
+I implemented an asynchronous client-server system for handling user queries and delivering responses from the SpaceTime database.
 
-The client side was implemented in **C++20** using Boost libraries and **Boost.Asio** for **asynchronous programming** and **TCP** communication. The client provides an automatic reconnect and retry feature, in the event of the loss of connection, the client will automatically try to reconnect to the server and resend any queries that have not received their corresponding responses. Additionally, the client supports multi flight mode, meaning the user can send multiple queries at the same time and asynchronously await their responses.
+- **Client**: Developed in **C++20** using **Boost.Asio** for **asynchronous programming** and **TCP communication**. Features include:
+   - Automatic reconnect and retry: Upon connection loss, the client automatically reconnects and resends any pending queries.
+   - Multi-flight support: Allows multiple queries to be sent concurrently, with responses handled asynchronously.
 
-The server side was implemented in **C++20** using **Boost** libraries and **Boost.Asio** for **asynchronous programming** and **TCP** communication.
+- **Server**: Also implemented in **C++20** with **Boost.Asio**, capable of handling multiple simultaneous client connections using non-blocking I/O.
 
 ---
 
@@ -49,7 +53,7 @@ GitHub link to the [repository](https://github.com/boostorg/mqtt5).
 An **open-source**, **industrial-grade MQTT 5.0** client built in **C++17** using **Boost.Asio**. <br>
 The Client is designed for publishing or receiving messages from an MQTT 5.0 compatible Broker.
 
-Released as part of Boost 1.88 — the largest collection of open-source and peer-reviewed C++ libraries.
+Released as part of Boost 1.88 — **the largest collection of open-source and peer-reviewed C++ libraries.**
 
 My responsibilities include:
 
@@ -65,7 +69,7 @@ My responsibilities include:
 
 ### In-House Raft Consensus Algorithm Implementation
 
-Currently leading the development of an in-house C++20 implementation of a consensus algorithm for distributed systems using Boost.Asio. 
+Currently leading the development of an in-house **C++20** implementation of a **consensus algorithm for distributed systems** using Boost.Asio. 
 
 My responsibilities include:
 
@@ -103,9 +107,9 @@ The project also involved creating data visualizations, including:
 ### Study Hours (Sep 2020 - Apr 2024)
 GitHub link to the [repository](https://github.com/ksimicevic/study-hours).
 
-During the academic year of 2020/2021, I collected data on how many hours I spent on university-related activities for each subject. The activities included attending lessons, studying, doing homework, and others.
+During the 2020/2021 academic year, I tracked the number of hours spent on various university-related activities across different subjects, including attending lectures, studying, completing homework, and more.
 
-After collecting the data, I created a web server showcasing various interactive data visualizations.
+After collecting the data, I developed a web server to display interactive data visualizations that provide insights into my study habits over time.
 
 **Technologies used:**  Python, Plotly, Dash
 
