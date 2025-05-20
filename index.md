@@ -78,7 +78,7 @@ My responsibilities include:
 - Core development
 - Creation of a testing infrastructure using Discrete-event simulation (DES) technique
 - Writing unit and integration tests
-- Mentoring junior and conducting in-depth code reviews to ensure best practices and maintain code quality
+- Mentoring junior developers and conducting in-depth code reviews to ensure best practices and maintain code quality
 
 ## Personal Pet Projects
 
